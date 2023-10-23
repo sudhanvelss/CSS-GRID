@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#world{
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  grid-template-rows: repeat(3,500px);
+  padding: 20px;
+}
+.box1 img ,.box2 img, .box3 img, .box4 img, .box6 img, .box7 img, .box8 img, .box9 img{
+  height: 450px;
+  width: 450px;
+}
+.box5{
+  border: 1px solid black;
+  height: 450px;
+  width: 450px;
+  display: flex;
+  padding-left: 18px;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: khaki;
+  font-size: 30px;
+}
